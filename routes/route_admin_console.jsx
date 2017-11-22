@@ -5,6 +5,7 @@ import React from 'react';
 import {IndexRedirect, Redirect, Route} from 'react-router/es6';
 
 import JIRASettings from 'plugins/jira/components/settings.jsx';
+import GithubSettings from 'plugins/github/components/settings.jsx';
 import * as RouteUtils from 'routes/route_utils.jsx';
 
 import Audits from 'components/admin_console/audits';
@@ -182,6 +183,10 @@ export default (
             <Route
                 path='jira'
                 component={JIRASettings}
+            />
+            <Route
+                path='github'
+                component={GithubSettings}
             />
         </Route>
         <Route path='files'>

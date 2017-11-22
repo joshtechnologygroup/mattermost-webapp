@@ -607,6 +607,15 @@ export default class AdminSidebar extends React.Component {
                                         />
                                     }
                                 />
+                                <AdminSidebarSection
+                                    name='github'
+                                    title={
+                                        <FormattedMessage
+                                            id='admin.sidebar.github'
+                                            defaultMessage='Github (Beta)'
+                                        />
+                                    }
+                                />
                             </AdminSidebarSection>
                             <AdminSidebarSection
                                 name='files'
